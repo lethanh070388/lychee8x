@@ -1,0 +1,51 @@
+extends ../layouts/layout.pug
+block append main-content
+    .container
+        .row
+            .left
+                .step_num
+                    img(src="../assets/img/step1.svg", alt="")
+                .ads_1
+                    img(src="../assets/img/left-product.svg", alt="")
+            .right
+                .article
+                    .article_title
+                        h1
+                            | Thần dược nhật bản
+                            br
+                            |82x collagen &amp; placenta
+                    .article_subtitle
+                        h2 Bí kíp giữ gìn tuổi thanh xuân
+                    .article_content
+                        p Giúp chăm sóc và phục hồi làn da từ sâu bên trong tận tế bào. Qua 20 năm nghiên cứu phát triển 82x Beauty đã sáng chế ra thành phần tinh chất ưu việt và công thức tái tạo tế bào da an toàn, hiệu quả nhất trên thị trường.  
+    .footer
+        .container
+            .row.align-items-end
+                .col
+                    h1.font-bold.text-white.text-large.my-3 Liên hệ
+                    .font-semi-bold-italic.my-2.text-white.text-medium 8X sẵn sàng giải đáp mọi thắc mắc của bạn
+                    .form-group
+                        button.btn.btn-primary 
+                            svg.call-icon(viewBox='0 0 37.22 37.22')
+                                path(d='M18.61,2.33A16.28,16.28,0,1,1,2.33,18.61,16.29,16.29,0,0,1,18.61,2.33m0-2.33A18.61,18.61,0,1,0,37.22,18.61,18.61,18.61,0,0,0,18.61,0ZM29,24.83l-.1-.32a3,3,0,0,0-1.8-1.7l-2.75-.75a2.7,2.7,0,0,0-2.36.62l-1,1a10.54,10.54,0,0,1-7.43-7.43l1-1a2.7,2.7,0,0,0,.62-2.36l-.75-2.75a2.94,2.94,0,0,0-1.7-1.8l-.32-.1a2.46,2.46,0,0,0-2.32.55L8.58,10.28a2.71,2.71,0,0,0-.44,1A17.57,17.57,0,0,0,25.87,29.07a2.61,2.61,0,0,0,1.07-.43l1.49-1.49A2.46,2.46,0,0,0,29,24.83Z')
+                            |Mua ngay
+                .col
+                    p.text-white.my-3
+                        |Để lại thông tin để nhận được
+                        br
+                        |tư vấn về da miễn phí
+                    form
+                        .form-group
+                            input.form-control.text-white(type="text" placeholder="Họ và tên")
+                            input.form-control.text-white(type="text" placeholder="Ngày tháng năm sinh")
+                        .form-group
+                            input.form-control.text-white(type="email" placeholder="Email")
+                        .form-group
+                            input.form-control.text-white(type="text" placeholder="Số điện thoại")
+                        .form-group
+                            input.form-control.text-white(type="text" placeholder="Địa chỉ")
+                        .form-group-inline
+                            input(type="checkbox")
+                            label.text-white Email me about new features
+                        .form-group
+                            input.btn.btn-primary.w-100(type="submit" value="Đăng kí")

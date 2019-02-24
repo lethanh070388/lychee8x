@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Lalezar&subset=vietnamese");
+html, body, td, th, input, button, select {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+  font-weight: normal;
+  font-size: 10px; }
+
+body {
+  -webkit-text-size-adjust: 100%; }
+
+@media screen and (min-width: 320px) {
+  html, body, td, th, input, button, select {
+    font-size: 12px; } }
+@media screen and (min-width: 576px) {
+  html, body, td, th, input, button, select {
+    font-size: 13px; } }
+@media screen and (min-width: 768px) {
+  html, body, td, th, input, button, select {
+    font-size: 14px; } }
+@media screen and (min-width: 576px) {
+  .font-title {
+    font-size: 14px;
+    font-weight: bold; } }
+@media screen and (min-width: 768px) {
+  .font-title {
+    font-size: 16px;
+    font-weight: bold; } }
+@media screen and (min-width: 991px) {
+  .font-title {
+    font-size: 18px;
+    font-weight: bold; } }
+.font-normal {
+  font-weight: 400 !important; }
+
+.font-bold {
+  font-weight: 600; }
+
+.font-bolder {
+  font-weight: 800; }
+
+.form-control,
+.btn {
+  font-size: 1em; }
+
+h1, .h1 {
+  font-size: 2.5em; }
+
+h2, .h2 {
+  font-size: 2em; }
+
+.post_title, .post_info {
+  font-family: 'Roboto', sans-serif; }
+.post_thumbnail {
+  font-family: 'Lalezar', cursive; }
+
+.text-green {
+  color: #009688; }
+
+.text-white {
+  color: #fff; }
+
+.text-red {
+  color: #e91e63; }
+
+.bg-dark {
+  background-color: #303030 !important; }
+
+.bg-grey {
+  background-color: #EAF0F0 !important; }
+
+html, body {
+  height: 100%; }
+
+.form-control,
+.btn {
+  /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+  -webkit-border-radius: 0;
+  /* Firefox 1-3.6 */
+  -moz-border-radius: 0;
+  /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+  border-radius: 0; }
+
+.hr-white {
+  border-color: #484848; }
+
+.border-none {
+  border: 0 !important; }
+
+.breadcrumb-item + .breadcrumb-item:before {
+  content: '\f054';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #ccc; }
+
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%; }
+  .main-wrapper .main-content {
+    flex-grow: 1; }
+
+/*# sourceMappingURL=app.css.map */

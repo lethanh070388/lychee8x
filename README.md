@@ -1,1 +1,1 @@
-# lychee8x
+pug -w ./src/view/pages -o ./dist/html -P

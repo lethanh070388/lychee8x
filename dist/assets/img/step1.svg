@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 152.6 59.4" style="enable-background:new 0 0 152.6 59.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{font-family:'Muli-Bold';}
+	.st1{font-size:26.5165px;}
+	.st2{clip-path:url(#SVGID_2_);fill:url(#SVGID_3_);}
+	.st3{fill:#BE975F;}
+	.st4{font-family:'Roboto-Thin';}
+	.st5{font-size:68.5534px;}
+	.st6{letter-spacing:-3;}
+</style>
+<g>
+	<g>
+		<defs>
+			<text id="SVGID_1_" transform="matrix(1 0 0 1 75.8043 28.197)"><tspan x="0" y="0" class="st0 st1">Sản </tspan><tspan x="0" y="27.4" class="st0 st1">phẩm</tspan></text>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="35.9904" y1="12.6078" x2="208.2344" y2="58.7604">
+			<stop  offset="6.522817e-02" style="stop-color:#EBDB80"/>
+			<stop  offset="0.2828" style="stop-color:#B78549"/>
+			<stop  offset="0.4834" style="stop-color:#D9BF64"/>
+			<stop  offset="0.6755" style="stop-color:#805623"/>
+			<stop  offset="0.6968" style="stop-color:#835A26"/>
+			<stop  offset="0.7182" style="stop-color:#8D662E"/>
+			<stop  offset="0.7398" style="stop-color:#9D7A3D"/>
+			<stop  offset="0.7614" style="stop-color:#B49751"/>
+			<stop  offset="0.7828" style="stop-color:#D2BB6B"/>
+			<stop  offset="0.7979" style="stop-color:#EAD980"/>
+			<stop  offset="0.8933" style="stop-color:#A5803C"/>
+			<stop  offset="0.9933" style="stop-color:#815B22"/>
+		</linearGradient>
+		<rect x="40.6" y="-4.7" class="st2" width="163" height="80.8"/>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 -1.515 57.6511)" class="st3 st4 st5 st6">01</text>
+	</g>
+</g>
+</svg>

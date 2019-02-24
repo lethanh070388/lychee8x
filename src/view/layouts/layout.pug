@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        block title-page
+        //- Custom style
+        link(href="../css/app.css" rel="stylesheet")
+    body
+        .banner
+            include ../partials/banner.pug
+        .navbar
+            include ../partials/nav.pug
+        .main-content
+            block main-content
+        .main-footer
+            include ../partials/footer.pug
+        //- JQuery
+        script(src="../js/jquery-3.3.1.min.js")
+        script(src="../js/main.js")
+        block script-append
+        
+        

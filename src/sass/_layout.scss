@@ -1,0 +1,42 @@
+.container{
+    max-width: 100%;
+    margin: auto;
+}
+
+
+
+@each $p in(
+    576px 540px,
+    768px 720px,
+    992px 960px,
+    1200px 1140px
+){
+    @media (min-width: #{nth($p,1)}){
+        .container{ max-width: #{nth($p,2)};}
+    }
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #000;
+}
+.left{
+    flex-basis: 40%;
+    max-width: 40%;
+    border: 1px solid red;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+.right{
+    flex-basis: 60%;
+    max-width: 60%;
+    border: 1px solid green;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+.col{
+    flex: 1;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
