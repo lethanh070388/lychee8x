@@ -112,11 +112,20 @@ body {
 .font-semi-bold-italic {
   font-family: 'MuliSemiBoldItalic'; }
 
+.font-black-italic {
+  font-family: 'MuliBlackItalic'; }
+
 .text-large {
   font-size: 3rem; }
 
 .text-medium {
   font-size: 1.2rem; }
+
+.headline .number {
+  font-family: 'UTMGod_sWordRItalic'; }
+
+.gradient-text {
+  font-family: 'MuliBlack'; }
 
 .text-green {
   color: #009688; }
@@ -167,11 +176,47 @@ h1, h2, h3, h4, h5, h6, p {
   margin-top: .5rem;
   margin-bottom: .5rem; }
 
+.mt-2 {
+  margin-top: 1rem; }
+
+.mt-3 {
+  margin-top: 1.5rem; }
+
+.mt-4 {
+  margin-top: 2rem; }
+
+.mt-5 {
+  margin-top: 2.5rem; }
+
+.mt-6 {
+  margin-top: 3em; }
+
+.mt-7 {
+  margin-top: 5em; }
+
+.mb-5 {
+  margin-bottom: 2.5rem; }
+
+.mb-4 {
+  margin-bottom: 2rem; }
+
+.pl-2 {
+  padding-left: 1em; }
+
 .w-100 {
   width: 100%; }
 
 .align-items-end {
   align-items: flex-end; }
+
+img {
+  max-width: 100%; }
+
+hr {
+  border-color: #b1b2b2;
+  border-width: 1px 0 0 0;
+  margin-top: 2em;
+  margin-bottom: 2em; }
 
 .container {
   max-width: 100%;
@@ -191,27 +236,30 @@ h1, h2, h3, h4, h5, h6, p {
     max-width: 1140px; } }
 .row {
   display: flex;
-  flex-wrap: wrap;
-  border: 2px solid #000; }
+  flex-wrap: wrap; }
 
 .left {
   flex-basis: 40%;
   max-width: 40%;
-  border: 1px solid red;
   padding-left: 0.5em;
   padding-right: 0.5em; }
 
 .right {
   flex-basis: 60%;
   max-width: 60%;
-  border: 1px solid green;
   padding-left: 0.5em;
   padding-right: 0.5em; }
 
-.col {
+[class*="col"] {
   flex: 1;
   padding-left: 0.5em;
   padding-right: 0.5em; }
+
+.col-3 {
+  flex-basis: 33.3333%; }
+
+.section-1 {
+  position: relative; }
 
 .banner {
   height: 100%;
@@ -252,7 +300,8 @@ h1, h2, h3, h4, h5, h6, p {
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
-  background-color: transparent; }
+  background-color: transparent;
+  z-index: 9999; }
   .navbar ul {
     list-style-type: none;
     margin: 0;
@@ -285,8 +334,9 @@ h1, h2, h3, h4, h5, h6, p {
 
 .article_title {
   color: #001080;
-  font-size: 1.2em;
   text-transform: uppercase; }
+  .article_title h1 {
+    font-size: 2em; }
 .article_subtitle {
   color: #2C4A8B; }
   .article_subtitle h2 {
@@ -303,6 +353,11 @@ h1, h2, h3, h4, h5, h6, p {
   background-position: center top;
   background-repeat: no-repeat;
   background-color: #071249; }
+
+.hotline {
+  font-size: 2.2em;
+  text-transform: uppercase;
+  color: #E9C069; }
 
 input, select {
   outline: 0; }
@@ -385,5 +440,77 @@ input, select {
   fill: #fff;
   margin-right: 10px;
   margin-top: -7px; }
+
+.headline {
+  display: flex;
+  align-items: baseline; }
+  .headline .number {
+    color: #646665; }
+    .headline .number img {
+      width: 50px;
+      position: relative;
+      top: 18px; }
+  .headline .line {
+    border-bottom: 1px solid #b1b2b2;
+    flex: 1; }
+
+.gradient-text {
+  font-size: 3em;
+  color: #CEAF5A;
+  text-transform: uppercase; }
+  .gradient-text img {
+    width: 100%;
+    display: block;
+    max-width: 400px; }
+
+.title-grey {
+  color: #646665;
+  font-size: 1.6em; }
+
+.table {
+  margin-top: 1em; }
+  .table .tr {
+    display: flex; }
+    .table .tr .td {
+      padding-right: 0.5em; }
+
+.field {
+  display: flex;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em; }
+  .field .order {
+    padding-right: .5em; }
+    .field .order svg {
+      position: relative;
+      top: 4px; }
+      .field .order svg text {
+        font-family: 'MuliSemiBold';
+        font-size: 0.7em;
+        fill: #b4d8ff; }
+  .field .content {
+    color: #001080;
+    font-family: serif;
+    font-family: 'UTMAndrogyne_0';
+    font-size: 1.1em; }
+
+.card-group {
+  margin-left: -0.5em;
+  margin-right: -0.5em; }
+
+.card {
+  margin-bottom: 1.5em; }
+  .card-img {
+    min-height: 90px;
+    text-align: center; }
+    .card-img img {
+      max-width: 70px; }
+  .card-title {
+    color: #001080;
+    font-family: 'MuliBlack';
+    text-align: center;
+    margin-bottom: 1em; }
+  .card-body {
+    text-align: justify;
+    color: #646665; }
 
 /*# sourceMappingURL=app.css.map */

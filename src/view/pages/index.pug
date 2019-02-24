@@ -1,29 +1,202 @@
 extends ../layouts/layout.pug
 block append main-content
-    .container
-        .row
-            .left
-                .step_num
-                    img(src="../assets/img/step1.svg", alt="")
-                .ads_1
-                    img(src="../assets/img/left-product.svg", alt="")
-            .right
-                .article
-                    .article_title
-                        h1
-                            | Thần dược nhật bản
-                            br
-                            |82x collagen &amp; placenta
-                    .article_subtitle
-                        h2 Bí kíp giữ gìn tuổi thanh xuân
-                    .article_content
-                        p Giúp chăm sóc và phục hồi làn da từ sâu bên trong tận tế bào. Qua 20 năm nghiên cứu phát triển 82x Beauty đã sáng chế ra thành phần tinh chất ưu việt và công thức tái tạo tế bào da an toàn, hiệu quả nhất trên thị trường.  
+    .section-1
+        .container
+            .row
+                .left
+                    .step_num
+                        img(src="../assets/img/step1.svg", alt="")
+                .right
+                    .article.mt-3
+                        .article_title
+                            h1
+                                | Thần dược nhật bản
+                                br
+                                |82x collagen &amp; placenta
+                        .article_subtitle
+                            h2 Bí kíp giữ gìn tuổi thanh xuân
+                        .article_content
+                            p Giúp chăm sóc và phục hồi làn da từ sâu bên trong tận tế bào. Qua 20 năm nghiên cứu phát triển 82x Beauty đã sáng chế ra thành phần tinh chất ưu việt và công thức tái tạo tế bào da an toàn, hiệu quả nhất trên thị trường.  
+            .row
+                .left
+                    .ads_1.mt-5
+                        img(src="../assets/img/left-product.svg", alt="")
+                .right
+                    .headline
+                        .number
+                            img(src="../assets/img/num-1.svg", alt="")
+                        .line
+                    .gradient-text
+                        img(src="../assets/img/8xcollagen.png", alt="")
+                    .title-grey.font-bold Chứa hàm lượng Collagen cao nhất Nhật Bản hiện nay, Collagen thủy phân 120,000mg
+                    .table
+                        .tr
+                            .td
+                                .field
+                                    .order
+                                        svg.icon-drop(width='24', height='24', viewBox='0 0 15.37 21.94')
+                                            path(d='M12.35,6.12A54.42,54.42,0,0,0,8.18.23a.64.64,0,0,0-1,0A55.64,55.64,0,0,0,3,6.12c-2,3.31-3,6-3,8.13a7.69,7.69,0,1,0,15.37,0c0-2.09-1-4.82-3-8.13Z', fill='#2e46b9')
+                                            text(x='50%' y='50%' text-anchor='middle' stroke='#b4d8ff' stroke-width='0', dy='.5em') 1
+                                    .content Chống lão hóa da
+                                .field
+                                    .order
+                                        svg.icon-drop(width='24', height='24', viewBox='0 0 15.37 21.94')
+                                            path(d='M12.35,6.12A54.42,54.42,0,0,0,8.18.23a.64.64,0,0,0-1,0A55.64,55.64,0,0,0,3,6.12c-2,3.31-3,6-3,8.13a7.69,7.69,0,1,0,15.37,0c0-2.09-1-4.82-3-8.13Z', fill='#2e46b9')
+                                            text(x='50%' y='50%' text-anchor='middle' stroke='#b4d8ff' stroke-width='0', dy='.5em') 2
+                                    .content Chống oxy hóa cơ thể
+                                .field
+                                    .order
+                                        svg.icon-drop(width='24', height='24', viewBox='0 0 15.37 21.94')
+                                            path(d='M12.35,6.12A54.42,54.42,0,0,0,8.18.23a.64.64,0,0,0-1,0A55.64,55.64,0,0,0,3,6.12c-2,3.31-3,6-3,8.13a7.69,7.69,0,1,0,15.37,0c0-2.09-1-4.82-3-8.13Z', fill='#2e46b9')
+                                            text(x='50%' y='50%' text-anchor='middle' stroke='#b4d8ff' stroke-width='0', dy='.5em') 3
+                                    .content Trắng da tự nhiên, bền vững
+                            .td
+                                .field
+                                    .order
+                                        svg.icon-drop(width='24', height='24', viewBox='0 0 15.37 21.94')
+                                            path(d='M12.35,6.12A54.42,54.42,0,0,0,8.18.23a.64.64,0,0,0-1,0A55.64,55.64,0,0,0,3,6.12c-2,3.31-3,6-3,8.13a7.69,7.69,0,1,0,15.37,0c0-2.09-1-4.82-3-8.13Z', fill='#2e46b9')
+                                            text(x='50%' y='50%' text-anchor='middle' stroke='#b4d8ff' stroke-width='0', dy='.5em') 4
+                                    .content Cung cấp dưỡng ẩm sâu cho da
+                                .field
+                                    .order
+                                        svg.icon-drop(width='24', height='24', viewBox='0 0 15.37 21.94')
+                                            path(d='M12.35,6.12A54.42,54.42,0,0,0,8.18.23a.64.64,0,0,0-1,0A55.64,55.64,0,0,0,3,6.12c-2,3.31-3,6-3,8.13a7.69,7.69,0,1,0,15.37,0c0-2.09-1-4.82-3-8.13Z', fill='#2e46b9')
+                                            text(x='50%' y='50%' text-anchor='middle' stroke='#b4d8ff' stroke-width='0', dy='.5em') 5
+                                    .content Tăng sinh collagen nội sinh
+                    hr
+                    .row.card-group
+                        .col-3
+                            .card
+                                .card-img
+                                    img(src="../assets/img/icon-1.svg", alt="")
+                                .card-title 100,000mg Collagen chiết xuất từ cá
+                                .card-body Giúp đẩy lùi các dấu hiệu lão hoá sau 1 tháng sử dụng: Giảm chảy xệ da, ngăn ngừa và xoá mờ nếp nhăn.
+                        .col-3
+                            .card
+                                .card-img
+                                    img(src="../assets/img/icon-2.svg", alt="")
+                                .card-title 82 loại thực phẩm lên men
+                                .card-body Tăng cường sức đề kháng cho cơ thể, giúp cơ thể bạn đạt được các thông số lý tưởng, mang lại vóc dáng đẹp, cân đối.
+                        .col-3
+                            .card
+                                .card-img
+                                    img(src="../assets/img/icon-3.svg", alt="")
+                                .card-title Chiết xuất hoa anh đào
+                                .card-body Giúp thu nhỏ lỗ chân lông và khiến da căng mịn, trắng hồng lên từng ngày. 
+                        .col-3
+                            .card
+                                .card-img
+                                    img(src="../assets/img/icon-4.svg", alt="")
+                                .card-title Chiết xuất sụn cá mập
+                                .card-body Cung cấp độ ẩm cho da, ức chế xuất hiện nếp nhăn. 
+                        .col-3
+                            .card
+                                .card-img
+                                    img(src="../assets/img/icon-5.svg", alt="")
+                                .card-title Hyaluronic Axit
+                                .card-body Tăng cường độ ẩm cho da, ngăn ngừa nếp nhăn.
+                        .col-3
+                            .card
+                                .card-img
+                                    img(src="../assets/img/icon-6.svg", alt="")
+                                .card-title Vitamin E, B1, B2, B6
+                                .card-body Thúc đẩy Collagen nội sinh.
+
+                    
+            .row
+                .right
+                    .headline
+                        .line
+                        .number.pl-2
+                            img(src="../assets/img/num-2.svg", alt="")
+                    
+                    .gradient-text
+                        img(src="../assets/img/8xplacenta.png", alt="")
+                    .title-grey.font-bold Chứa hàm lượng Placenta cao nhất Nhật Bản hiện nay, Placenta tinh chất 450,000mg
+                    .table
+                        .tr
+                            .td
+                                .field
+                                    .order
+                                        svg.icon-drop(width='24', height='24', viewBox='0 0 15.37 21.94')
+                                            path(d='M12.35,6.12A54.42,54.42,0,0,0,8.18.23a.64.64,0,0,0-1,0A55.64,55.64,0,0,0,3,6.12c-2,3.31-3,6-3,8.13a7.69,7.69,0,1,0,15.37,0c0-2.09-1-4.82-3-8.13Z', fill='#2e46b9')
+                                            text(x='50%' y='50%' text-anchor='middle' stroke='#b4d8ff' stroke-width='0', dy='.5em') 1
+                                    .content Chống lão hóa da
+                                .field
+                                    .order
+                                        svg.icon-drop(width='24', height='24', viewBox='0 0 15.37 21.94')
+                                            path(d='M12.35,6.12A54.42,54.42,0,0,0,8.18.23a.64.64,0,0,0-1,0A55.64,55.64,0,0,0,3,6.12c-2,3.31-3,6-3,8.13a7.69,7.69,0,1,0,15.37,0c0-2.09-1-4.82-3-8.13Z', fill='#2e46b9')
+                                            text(x='50%' y='50%' text-anchor='middle' stroke='#b4d8ff' stroke-width='0', dy='.5em') 2
+                                    .content Chống oxy hóa cơ thể
+                                .field
+                                    .order
+                                        svg.icon-drop(width='24', height='24', viewBox='0 0 15.37 21.94')
+                                            path(d='M12.35,6.12A54.42,54.42,0,0,0,8.18.23a.64.64,0,0,0-1,0A55.64,55.64,0,0,0,3,6.12c-2,3.31-3,6-3,8.13a7.69,7.69,0,1,0,15.37,0c0-2.09-1-4.82-3-8.13Z', fill='#2e46b9')
+                                            text(x='50%' y='50%' text-anchor='middle' stroke='#b4d8ff' stroke-width='0', dy='.5em') 3
+                                    .content Trắng da tự nhiên, bền vững
+                            .td
+                                .field
+                                    .order
+                                        svg.icon-drop(width='24', height='24', viewBox='0 0 15.37 21.94')
+                                            path(d='M12.35,6.12A54.42,54.42,0,0,0,8.18.23a.64.64,0,0,0-1,0A55.64,55.64,0,0,0,3,6.12c-2,3.31-3,6-3,8.13a7.69,7.69,0,1,0,15.37,0c0-2.09-1-4.82-3-8.13Z', fill='#2e46b9')
+                                            text(x='50%' y='50%' text-anchor='middle' stroke='#b4d8ff' stroke-width='0', dy='.5em') 4
+                                    .content Cung cấp dưỡng ẩm sâu cho da
+                                .field
+                                    .order
+                                        svg.icon-drop(width='24', height='24', viewBox='0 0 15.37 21.94')
+                                            path(d='M12.35,6.12A54.42,54.42,0,0,0,8.18.23a.64.64,0,0,0-1,0A55.64,55.64,0,0,0,3,6.12c-2,3.31-3,6-3,8.13a7.69,7.69,0,1,0,15.37,0c0-2.09-1-4.82-3-8.13Z', fill='#2e46b9')
+                                            text(x='50%' y='50%' text-anchor='middle' stroke='#b4d8ff' stroke-width='0', dy='.5em') 5
+                                    .content Tăng sinh collagen nội sinh
+                    hr
+
+                    .row.card-group
+                        .col-3
+                            .card
+                                .card-img
+                                    img(src="../assets/img/icon-7.svg", alt="")
+                                .card-title 450.000mg Placenta
+                                .card-body Giúp đẩy lùi các dấu hiệu lão hoá sau 1 tháng sử dụng: Giảm chảy xệ da, ngăn ngừa và xoá mờ nếp nhăn.
+                        .col-3
+                            .card
+                                .card-img
+                                    img(src="../assets/img/icon-2.svg", alt="")
+                                .card-title 82 loại thực phẩm lên men
+                                .card-body Tăng cường sức đề kháng cho cơ thể, giúp cơ thể bạn đạt được các thông số lý tưởng, mang lại vóc dáng đẹp, cân đối.
+                        .col-3
+                            .card
+                                .card-img
+                                    img(src="../assets/img/icon-5.svg", alt="")
+                                .card-title Hyaluronic Acid, Coenzyme Q10, Vitamin E, B1, B2, B6
+                                .card-body Tăng tuần hoàn máu, trẻ hoá tế bào, giúp tăng độ ẩm làn da, ngừa nếp nhăn.
+                        .col-3
+                            .card
+                                .card-img
+                                    img(src="../assets/img/icon-8.svg", alt="")
+                                .card-title Chiết xuất tổ yến
+                                .card-body Ngăn ngừa oxy hoá, chống lão hoá, giúp cơ thể trẻ khoẻ, ngừa ung thư.
+                        .col-3
+                            .card
+                                .card-img
+                                    img(src="../assets/img/icon-5.svg", alt="")
+                                .card-title Vitamin E, B1, B2, B6
+                                .card-body Đẩy lùi dấu hiệu lão hoá, giảm chảy xệ, xoá mờ nếp nhăn.
+                        .col-3
+                            .card
+                                .card-img
+                                    img(src="../assets/img/icon-9.svg", alt="")
+                                .card-title Chiết xuất mầm nho
+                                .card-body Căn bằng độ ẩm ngăn ngừa nếp nhăn.
+                .left
+                    .ads_1.mt-5
+                        img(src="../assets/img/right-product.svg", alt="")
+
     .footer
         .container
             .row.align-items-end
                 .col
                     h1.font-bold.text-white.text-large.my-3 Liên hệ
-                    .font-semi-bold-italic.my-2.text-white.text-medium 8X sẵn sàng giải đáp mọi thắc mắc của bạn
+                    .font-semi-bold-italic.mt-2.text-white.text-medium 8X sẵn sàng giải đáp mọi thắc mắc của bạn
+                    h1.hotline.font-black-italic.mb-4 Hotline: 0966 680 853
                     .form-group
                         button.btn.btn-primary 
                             svg.call-icon(viewBox='0 0 37.22 37.22')

@@ -45,6 +45,7 @@
     padding-top: 1em;
     @include transition(.5s);
     background-color: transparent;
+    z-index: 9999;
     ul{
         list-style-type: none;
         margin: 0;
@@ -84,8 +85,10 @@
 .article{
     &_title{
         color: #001080;
-        font-size: 1.2em;
         text-transform: uppercase;
+        h1{
+            font-size: 2em;
+        }
     }
     &_subtitle{
         color: #2C4A8B;
@@ -109,6 +112,11 @@
     background-position: center top;
     background-repeat: no-repeat;
     background-color: #071249;
+}
+.hotline{
+    font-size: 2.2em;
+    text-transform: uppercase;
+    color: #E9C069;
 }
 // END FOOTER
 
@@ -185,3 +193,99 @@ input,select{
     margin-top: -7px;
 }
 // END FORM
+
+// HEADLINE
+.headline{
+    display: flex;
+    align-items: baseline;
+    .number{
+        color: #646665;
+        img{
+            width: 50px;
+            position: relative;
+            top: 18px;
+        }
+    }
+    .line{
+        border-bottom: 1px solid #b1b2b2;
+        flex: 1;
+    }
+}
+.gradient-text{
+    font-size: 3em;
+    color: #CEAF5A;
+    text-transform: uppercase;
+    img{
+        width: 100%;
+        display: block;
+        max-width: 400px;
+    }
+}
+.title-grey{
+    color: #646665;
+    font-size: 1.6em;
+}
+
+// END HEADLINE
+
+// TABLE
+.table{
+    margin-top: 1em;
+    .tr{
+        display: flex;
+        .td{
+            padding-right: 0.5em;
+        }
+    }
+}
+.field{
+    display: flex;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    .order{
+        padding-right: .5em;
+        svg{
+            position: relative;
+            top: 4px;
+            text{
+                font-family: 'MuliSemiBold';
+                font-size: 0.7em;
+                fill: #b4d8ff;
+            }
+        }
+    }
+    .content{
+        color: #001080;
+        font-family: serif;
+        font-family: 'UTMAndrogyne_0';
+        font-size: 1.1em;
+    }
+}
+// END TABLE
+
+// CARD
+.card-group{
+    margin-left: -0.5em;
+    margin-right: -0.5em;
+}
+.card{
+    margin-bottom: 1.5em;
+    &-img{
+        min-height: 90px;
+        img{
+            max-width: 70px;
+        }
+        text-align: center;
+    }
+    &-title{
+        color: #001080;
+        font-family: 'MuliBlack';
+        text-align: center;
+        margin-bottom: 1em;
+    }
+    &-body{
+        text-align: justify;
+        color: #646665;
+    }
+}
+// END CARD

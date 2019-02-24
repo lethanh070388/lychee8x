@@ -225,10 +225,21 @@ body{
 .font-semi-bold-italic{
     font-family: 'MuliSemiBoldItalic';
 }
-
+.font-black-italic{
+    font-family: 'MuliBlackItalic';
+}
 .text-large{
     font-size: 3rem;
 }
 .text-medium{
     font-size: 1.2rem;
+}
+
+.headline{
+    .number{
+        font-family: 'UTMGod_sWordRItalic';
+    }
+}
+.gradient-text{
+    font-family: 'MuliBlack';
 }

@@ -31,4 +31,12 @@ $(function(){
         },500);
     })
     
+
+    $('input').focus(function(){
+        var txt = $(this).attr("placeholder")
+        $(this).attr("placeholder","");
+        $(this).blur(function(){
+            $(this).attr("placeholder",txt);
+        })
+    });
 });
