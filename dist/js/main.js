@@ -69,7 +69,6 @@ $(function () {
           var hash = this.hash;
     
           var pos = $(hash).offset().top - 100;
-          console.log(pos)
           $('html, body').animate({
             scrollTop: pos
           }, 900, function(){
@@ -79,7 +78,6 @@ $(function () {
             $(".navbar a.active").removeClass("active");
 
             $('.navbar a[href="'+hash+'"').addClass("active");
-            console.log(hash)
           });
         } // End if
       });

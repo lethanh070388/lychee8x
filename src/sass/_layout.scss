@@ -52,14 +52,6 @@
 .section-1{
     position: relative;
     overflow: hidden;
-    .hoamai{
-        position: absolute;
-        top: 100%;
-        left: 50%;
-        @include transform(transformX(-50%));
-        max-width: 80px;
-        z-index: -1;
-    }
     .hoamai1{
         position: absolute;
         top: 35%;
@@ -112,6 +104,16 @@
     background-repeat: no-repeat;
     background-position: center 0;
     padding-top: 350px;
+    position: relative;
+    .hoamai{
+        position: absolute;
+        top: 0;
+        left: 60%;
+        @include transform(translate(-50%,-50%));
+        max-width: 80px;
+        z-index: 1;
+        opacity: .7;
+    }
 }
 
 .section-3{
@@ -121,7 +123,7 @@
         position: absolute;
         bottom: -5px;
         left: 60%;
-        @include transform(transformX(-50%));
+        @include transform(translateX(-50%));
         max-width: 70px;
         z-index: -1;
     }

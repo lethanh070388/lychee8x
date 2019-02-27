@@ -328,17 +328,6 @@ hr {
 .section-1 {
   position: relative;
   overflow: hidden; }
-  .section-1 .hoamai {
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    -webkit-transform: transformX(-50%);
-    -moz-transform: transformX(-50%);
-    -ms-transform: transformX(-50%);
-    -o-transform: transformX(-50%);
-    transform: transformX(-50%);
-    max-width: 80px;
-    z-index: -1; }
   .section-1 .hoamai1 {
     position: absolute;
     top: 35%;
@@ -400,7 +389,20 @@ hr {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center 0;
-  padding-top: 350px; }
+  padding-top: 350px;
+  position: relative; }
+  .section-2 .hoamai {
+    position: absolute;
+    top: 0;
+    left: 60%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    max-width: 80px;
+    z-index: 1;
+    opacity: .7; }
 
 .section-3 {
   position: relative;
@@ -409,11 +411,11 @@ hr {
     position: absolute;
     bottom: -5px;
     left: 60%;
-    -webkit-transform: transformX(-50%);
-    -moz-transform: transformX(-50%);
-    -ms-transform: transformX(-50%);
-    -o-transform: transformX(-50%);
-    transform: transformX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
     max-width: 70px;
     z-index: -1; }
   .section-3 .hoamai1 {
