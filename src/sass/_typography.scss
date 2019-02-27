@@ -160,6 +160,13 @@
          url('fonts/AvenirNextBoldItalic.svg#AvenirNextBoldItalic') format('svg');
 }
 
+@font-face {
+    font-family: 'AvenirNext';
+    src: url('fonts/AvenirNext.eot');
+    src: url('fonts/AvenirNext.eot') format('embedded-opentype'),
+         url('fonts/AvenirNext.ttf') format('truetype')
+}
+
 html,body,td,th,input,button,select{
     font-family: 'MuliRegular', sans-serif;
     line-height: 1.5;
@@ -172,8 +179,8 @@ body{
 }
 @each $vw in (
     320px 1.4,
-    576px 1.6,
-    768px 1.8
+    768px 1.6,
+    992px 1.8
 ){
     @media screen and (min-width: #{nth($vw,1)}){
         html,body,td,th,input,button,select{
@@ -222,14 +229,29 @@ body{
 .font-bold{
     font-family: 'MuliBold';
 }
+.font-bold-italic{
+    font-family: 'MuliBoldItalic';
+}
 .font-semi-bold-italic{
     font-family: 'MuliSemiBoldItalic';
 }
 .font-black-italic{
     font-family: 'MuliBlackItalic';
 }
+.font-light-italic{
+    font-family: 'MuliLightItalic';
+}
+.font-black{
+    font-family: 'MuliBlack';
+}
 .text-large{
     font-size: 3rem;
+}
+.text-big{
+    font-size: 2rem;
+}
+.text-semi-big{
+    font-size: 1.6rem;
 }
 .text-medium{
     font-size: 1.2rem;

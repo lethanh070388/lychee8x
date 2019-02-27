@@ -1,6 +1,7 @@
 .container{
     max-width: 100%;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -43,7 +44,186 @@
 .col-3{
     flex-basis: 33.3333%;
 }
-
+@media (max-width: 767px){
+    .col{
+        flex-basis: 100% !important;
+    }
+}
 .section-1{
-    position: relative;;
+    position: relative;
+    overflow: hidden;
+    .hoamai{
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        @include transform(transformX(-50%));
+        max-width: 80px;
+    }
+    .hoamai1{
+        position: absolute;
+        top: 35%;
+        left: -5px;
+        @include transform(rotate(45deg));
+        max-width: 90px;
+        opacity: .7;
+    }
+    .hoamai2{
+        position: absolute;
+        top: 60%;
+        left: 15%;
+        @include transform(rotate(25deg));
+        max-width: 50px;
+        opacity: .5;
+    }
+    .hoamai3{
+        position: absolute;
+        top: 20%;
+        right: -25px;
+        @include transform(rotate(75deg));
+        max-width: 120px;
+        opacity: .6;
+    }
+    .daylua-tr{
+        position: absolute;
+        left: -400px;
+        top: -50px;
+        max-width: 1000px;
+        @include transform(rotate(20deg));
+        opacity: .5;
+    }
+    .daylua-p{
+        position: absolute;
+        right: -250px;
+        bottom: 0;
+        max-width: 1000px;
+        opacity: .5;
+    }
+}
+
+.section-2{
+    background-image: url('../assets/img/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 0;
+    padding-top: 350px;
+}
+
+.section-3{
+    position: relative;
+    overflow: hidden;
+    .hoamai{
+        position: absolute;
+        bottom: -5px;
+        left: 60%;
+        @include transform(transformX(-50%));
+        max-width: 70px;
+    }
+    .hoamai1{
+        position: absolute;
+        top: 20%;
+        left: -5px;
+        @include transform(rotate(65deg));
+        max-width: 120px;
+        opacity: .5;
+    }
+    .hoamai2{
+        position: absolute;
+        top: 60%;
+        left: 15%;
+        @include transform(rotate(25deg));
+        max-width: 50px;
+        opacity: .5;
+    }
+    .hoamai3{
+        position: absolute;
+        bottom: 20%;
+        right: -55px;
+        @include transform(rotate(15deg));
+        max-width: 100px;
+        opacity: .7;
+    }
+    .daylua-tr{
+        position: absolute;
+        left: -400px;
+        top: 20%;
+        max-width: 1000px;
+        @include transform(rotate(10deg));
+        opacity: .5;
+    }
+    .daylua-p{
+        position: absolute;
+        right: -320px;
+        top: 0;
+        max-width: 1000px;
+        opacity: .5;
+    }
+}
+.section-seperate{
+    width: 100%;
+}
+.section-4{
+    background-image: url('../assets/img/bg2.png');
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    .pt-spec{
+        padding-top: 70vw;
+    }
+}
+[class*="width-"]{
+    max-width: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row-mobile{
+    display: none;
+}
+@media (min-width: 992px){
+    .width-md-80{
+        max-width: 80%;
+    }
+}
+@media (max-width: 991px){
+    .section-2{
+        padding-top: 200px;
+    }
+    .section-4{
+        .pt-spec{
+            padding-top: 130vw;
+        }
+    }
+    .row-pc{
+        display: none;
+    }
+    .row-mobile{
+        display: flex;
+    }
+}
+
+@media (max-width: 767px){
+    .row-1{
+        .left,
+        .right{
+            flex-basis: 100%;
+            max-width: 100%;
+        }
+    }
+    .table{
+        .tr{
+            flex-wrap: wrap;
+            .td{
+                flex-basis: 100%;
+            }
+        }
+    }
+    .card-group{
+        margin-left: .25em !important;
+        margin-right: .25em !important;
+        .col-3{
+            flex-basis: 50%;
+            max-width: 50%;
+        }
+    }
 }

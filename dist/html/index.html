@@ -4,6 +4,8 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link href="../css/owl.carousel.min.css" rel="stylesheet"/>
+    <link href="../css/owl.theme.default.min.css" rel="stylesheet"/>
     <link href="../css/app.css" rel="stylesheet"/>
   </head>
   <body>
@@ -40,27 +42,31 @@
         </div>
       </div>
     </div>
-    <div class="navbar">
+    <div class="nav-section">
+      <div class="toggle-nav">
+        <div class="logo"><a href="#"><img src="../assets/img/logo.png" alt=""/></a></div>
+        <div class="toggle-icon"><span></span><span></span><span></span></div>
+      </div>
       <nav class="navbar scrolling-navbar">
         <div class="container">
           <ul>
-            <li><a class="active" href="#">Sản phẩm</a></li>
-            <li><a href="#">Vấn đề về da</a></li>
-            <li><a href="#">Hiệu quả sử dụng</a></li>
+            <li><a class="active" href="#sec1">Sản phẩm</a></li>
+            <li><a href="#sec2">Vấn đề về da</a></li>
+            <li><a href="#sec3">Hiệu quả sử dụng</a></li>
             <li class="logo"><a href="#"><img src="../assets/img/logo.png" alt=""/></a></li>
-            <li><a href="#">Chia sẻ khách hàng</a></li>
-            <li><a href="#">Chứng nhận </a></li>
-            <li><a href="#">Mua hàng</a></li>
+            <li><a href="#sec5">Chia sẻ khách hàng</a></li>
+            <li><a href="#sec4">Chứng nhận </a></li>
+            <li><a href="#sec6">Mua hàng</a></li>
           </ul>
         </div>
       </nav>
     </div>
     <div class="main-content">
-      <div class="section-1">
+      <div class="section-1 mt-5"><img class="hoamai" src="../assets/img/hoamai.svg" alt=""/><img class="hoamai1" src="../assets/img/hoamai.svg" alt=""/><img class="hoamai2" src="../assets/img/hoamai.svg" alt=""/><img class="hoamai3" src="../assets/img/hoamai.svg" alt=""/><img class="daylua-tr" src="../assets/img/daylua-tr.svg" alt=""/><img class="daylua-p" src="../assets/img/daylua-p.svg" alt=""/>
         <div class="container">
-          <div class="row">
+          <div class="row row-1">
             <div class="left">
-              <div class="step_num"><img src="../assets/img/step1.svg" alt=""/></div>
+              <div class="step_num mt-3" id="sec1"><img src="../assets/img/step1.svg" alt=""/></div>
             </div>
             <div class="right">
               <div class="article mt-3">
@@ -76,7 +82,7 @@
               </div>
             </div>
           </div>
-          <div class="row">
+          <div class="row row-pc">
             <div class="left">
               <div class="ads_1 mt-5"><img src="../assets/img/left-product.svg" alt=""/></div>
             </div>
@@ -187,7 +193,117 @@
               </div>
             </div>
           </div>
-          <div class="row">
+          <div class="row row-mobile"> 
+            <div class="left">
+              <div class="ads_1 mt-5"><img src="../assets/img/left-product.svg" alt=""/></div>
+            </div>
+            <div class="right">
+              <div class="headline">
+                <div class="number"><img src="../assets/img/num-1.svg" alt=""/></div>
+                <div class="line"></div>
+              </div>
+              <div class="gradient-text"><img src="../assets/img/8xcollagen.png" alt=""/></div>
+              <div class="title-grey font-bold">Chứa hàm lượng Collagen cao nhất Nhật Bản hiện nay, Collagen thủy phân 120,000mg</div>
+              <div class="table">
+                <div class="tr">
+                  <div class="td">
+                    <div class="field">
+                      <div class="order">
+                        <svg class="icon-drop" width="24" height="24" viewBox="0 0 15.37 21.94">
+                          <path d="M12.35,6.12A54.42,54.42,0,0,0,8.18.23a.64.64,0,0,0-1,0A55.64,55.64,0,0,0,3,6.12c-2,3.31-3,6-3,8.13a7.69,7.69,0,1,0,15.37,0c0-2.09-1-4.82-3-8.13Z" fill="#2e46b9"></path>
+                          <text x="50%" y="50%" text-anchor="middle" stroke="#b4d8ff" stroke-width="0" dy=".5em">1</text>
+                        </svg>
+                      </div>
+                      <div class="content">Chống lão hóa da</div>
+                    </div>
+                    <div class="field">
+                      <div class="order">
+                        <svg class="icon-drop" width="24" height="24" viewBox="0 0 15.37 21.94">
+                          <path d="M12.35,6.12A54.42,54.42,0,0,0,8.18.23a.64.64,0,0,0-1,0A55.64,55.64,0,0,0,3,6.12c-2,3.31-3,6-3,8.13a7.69,7.69,0,1,0,15.37,0c0-2.09-1-4.82-3-8.13Z" fill="#2e46b9"></path>
+                          <text x="50%" y="50%" text-anchor="middle" stroke="#b4d8ff" stroke-width="0" dy=".5em">2</text>
+                        </svg>
+                      </div>
+                      <div class="content">Chống oxy hóa cơ thể</div>
+                    </div>
+                    <div class="field">
+                      <div class="order">
+                        <svg class="icon-drop" width="24" height="24" viewBox="0 0 15.37 21.94">
+                          <path d="M12.35,6.12A54.42,54.42,0,0,0,8.18.23a.64.64,0,0,0-1,0A55.64,55.64,0,0,0,3,6.12c-2,3.31-3,6-3,8.13a7.69,7.69,0,1,0,15.37,0c0-2.09-1-4.82-3-8.13Z" fill="#2e46b9"></path>
+                          <text x="50%" y="50%" text-anchor="middle" stroke="#b4d8ff" stroke-width="0" dy=".5em">3</text>
+                        </svg>
+                      </div>
+                      <div class="content">Trắng da tự nhiên, bền vững</div>
+                    </div>
+                  </div>
+                  <div class="td">
+                    <div class="field">
+                      <div class="order">
+                        <svg class="icon-drop" width="24" height="24" viewBox="0 0 15.37 21.94">
+                          <path d="M12.35,6.12A54.42,54.42,0,0,0,8.18.23a.64.64,0,0,0-1,0A55.64,55.64,0,0,0,3,6.12c-2,3.31-3,6-3,8.13a7.69,7.69,0,1,0,15.37,0c0-2.09-1-4.82-3-8.13Z" fill="#2e46b9"></path>
+                          <text x="50%" y="50%" text-anchor="middle" stroke="#b4d8ff" stroke-width="0" dy=".5em">4</text>
+                        </svg>
+                      </div>
+                      <div class="content">Cung cấp dưỡng ẩm sâu cho da</div>
+                    </div>
+                    <div class="field">
+                      <div class="order">
+                        <svg class="icon-drop" width="24" height="24" viewBox="0 0 15.37 21.94">
+                          <path d="M12.35,6.12A54.42,54.42,0,0,0,8.18.23a.64.64,0,0,0-1,0A55.64,55.64,0,0,0,3,6.12c-2,3.31-3,6-3,8.13a7.69,7.69,0,1,0,15.37,0c0-2.09-1-4.82-3-8.13Z" fill="#2e46b9"></path>
+                          <text x="50%" y="50%" text-anchor="middle" stroke="#b4d8ff" stroke-width="0" dy=".5em">5</text>
+                        </svg>
+                      </div>
+                      <div class="content">Tăng sinh collagen nội sinh </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row card-group">
+              <div class="col-3">
+                <div class="card">
+                  <div class="card-img"><img src="../assets/img/icon-1.svg" alt=""/></div>
+                  <div class="card-title">100,000mg Collagen chiết xuất từ cá</div>
+                  <div class="card-body">Giúp đẩy lùi các dấu hiệu lão hoá sau 1 tháng sử dụng: Giảm chảy xệ da, ngăn ngừa và xoá mờ nếp nhăn.</div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card">
+                  <div class="card-img"><img src="../assets/img/icon-2.svg" alt=""/></div>
+                  <div class="card-title">82 loại thực phẩm lên men</div>
+                  <div class="card-body">Tăng cường sức đề kháng cho cơ thể, giúp cơ thể bạn đạt được các thông số lý tưởng, mang lại vóc dáng đẹp, cân đối.</div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card">
+                  <div class="card-img"><img src="../assets/img/icon-3.svg" alt=""/></div>
+                  <div class="card-title">Chiết xuất hoa anh đào</div>
+                  <div class="card-body">Giúp thu nhỏ lỗ chân lông và khiến da căng mịn, trắng hồng lên từng ngày. </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card">
+                  <div class="card-img"><img src="../assets/img/icon-4.svg" alt=""/></div>
+                  <div class="card-title">Chiết xuất sụn cá mập</div>
+                  <div class="card-body">Cung cấp độ ẩm cho da, ức chế xuất hiện nếp nhăn. </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card">
+                  <div class="card-img"><img src="../assets/img/icon-5.svg" alt=""/></div>
+                  <div class="card-title">Hyaluronic Axit</div>
+                  <div class="card-body">Tăng cường độ ẩm cho da, ngăn ngừa nếp nhăn.</div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card">
+                  <div class="card-img"><img src="../assets/img/icon-6.svg" alt=""/></div>
+                  <div class="card-title">Vitamin E, B1, B2, B6</div>
+                  <div class="card-body">Thúc đẩy Collagen nội sinh.  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row row-pc">
             <div class="right">
               <div class="headline">
                 <div class="line"></div>
@@ -298,6 +414,393 @@
               <div class="ads_1 mt-5"><img src="../assets/img/right-product.svg" alt=""/></div>
             </div>
           </div>
+          <div class="row row-mobile">
+            <div class="right">
+              <div class="headline">
+                <div class="line"></div>
+                <div class="number pl-2"><img src="../assets/img/num-2.svg" alt=""/></div>
+              </div>
+              <div class="gradient-text"><img src="../assets/img/8xplacenta.png" alt=""/></div>
+              <div class="title-grey font-bold">Chứa hàm lượng Placenta cao nhất Nhật Bản hiện nay, Placenta tinh chất 450,000mg</div>
+              <div class="table">
+                <div class="tr">
+                  <div class="td">
+                    <div class="field">
+                      <div class="order">
+                        <svg class="icon-drop" width="24" height="24" viewBox="0 0 15.37 21.94">
+                          <path d="M12.35,6.12A54.42,54.42,0,0,0,8.18.23a.64.64,0,0,0-1,0A55.64,55.64,0,0,0,3,6.12c-2,3.31-3,6-3,8.13a7.69,7.69,0,1,0,15.37,0c0-2.09-1-4.82-3-8.13Z" fill="#2e46b9"></path>
+                          <text x="50%" y="50%" text-anchor="middle" stroke="#b4d8ff" stroke-width="0" dy=".5em">1</text>
+                        </svg>
+                      </div>
+                      <div class="content">Chống lão hóa da</div>
+                    </div>
+                    <div class="field">
+                      <div class="order">
+                        <svg class="icon-drop" width="24" height="24" viewBox="0 0 15.37 21.94">
+                          <path d="M12.35,6.12A54.42,54.42,0,0,0,8.18.23a.64.64,0,0,0-1,0A55.64,55.64,0,0,0,3,6.12c-2,3.31-3,6-3,8.13a7.69,7.69,0,1,0,15.37,0c0-2.09-1-4.82-3-8.13Z" fill="#2e46b9"></path>
+                          <text x="50%" y="50%" text-anchor="middle" stroke="#b4d8ff" stroke-width="0" dy=".5em">2</text>
+                        </svg>
+                      </div>
+                      <div class="content">Chống oxy hóa cơ thể</div>
+                    </div>
+                    <div class="field">
+                      <div class="order">
+                        <svg class="icon-drop" width="24" height="24" viewBox="0 0 15.37 21.94">
+                          <path d="M12.35,6.12A54.42,54.42,0,0,0,8.18.23a.64.64,0,0,0-1,0A55.64,55.64,0,0,0,3,6.12c-2,3.31-3,6-3,8.13a7.69,7.69,0,1,0,15.37,0c0-2.09-1-4.82-3-8.13Z" fill="#2e46b9"></path>
+                          <text x="50%" y="50%" text-anchor="middle" stroke="#b4d8ff" stroke-width="0" dy=".5em">3</text>
+                        </svg>
+                      </div>
+                      <div class="content">Trắng da tự nhiên, bền vững</div>
+                    </div>
+                  </div>
+                  <div class="td">
+                    <div class="field">
+                      <div class="order">
+                        <svg class="icon-drop" width="24" height="24" viewBox="0 0 15.37 21.94">
+                          <path d="M12.35,6.12A54.42,54.42,0,0,0,8.18.23a.64.64,0,0,0-1,0A55.64,55.64,0,0,0,3,6.12c-2,3.31-3,6-3,8.13a7.69,7.69,0,1,0,15.37,0c0-2.09-1-4.82-3-8.13Z" fill="#2e46b9"></path>
+                          <text x="50%" y="50%" text-anchor="middle" stroke="#b4d8ff" stroke-width="0" dy=".5em">4</text>
+                        </svg>
+                      </div>
+                      <div class="content">Cung cấp dưỡng ẩm sâu cho da</div>
+                    </div>
+                    <div class="field">
+                      <div class="order">
+                        <svg class="icon-drop" width="24" height="24" viewBox="0 0 15.37 21.94">
+                          <path d="M12.35,6.12A54.42,54.42,0,0,0,8.18.23a.64.64,0,0,0-1,0A55.64,55.64,0,0,0,3,6.12c-2,3.31-3,6-3,8.13a7.69,7.69,0,1,0,15.37,0c0-2.09-1-4.82-3-8.13Z" fill="#2e46b9"></path>
+                          <text x="50%" y="50%" text-anchor="middle" stroke="#b4d8ff" stroke-width="0" dy=".5em">5</text>
+                        </svg>
+                      </div>
+                      <div class="content">Tăng sinh collagen nội sinh</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="left">
+              <div class="ads_1 mt-5"><img src="../assets/img/right-product.svg" alt=""/></div>
+            </div>
+            <div class="row card-group">
+              <div class="col-3">
+                <div class="card">
+                  <div class="card-img"><img src="../assets/img/icon-7.svg" alt=""/></div>
+                  <div class="card-title">450.000mg Placenta</div>
+                  <div class="card-body">Giúp đẩy lùi các dấu hiệu lão hoá sau 1 tháng sử dụng: Giảm chảy xệ da, ngăn ngừa và xoá mờ nếp nhăn.</div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card">
+                  <div class="card-img"><img src="../assets/img/icon-2.svg" alt=""/></div>
+                  <div class="card-title">82 loại thực phẩm lên men</div>
+                  <div class="card-body">Tăng cường sức đề kháng cho cơ thể, giúp cơ thể bạn đạt được các thông số lý tưởng, mang lại vóc dáng đẹp, cân đối.</div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card">
+                  <div class="card-img"><img src="../assets/img/icon-5.svg" alt=""/></div>
+                  <div class="card-title">Hyaluronic Acid, Coenzyme Q10, Vitamin E, B1, B2, B6</div>
+                  <div class="card-body">Tăng tuần hoàn máu, trẻ hoá tế bào, giúp tăng độ ẩm làn da, ngừa nếp nhăn.</div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card">
+                  <div class="card-img"><img src="../assets/img/icon-8.svg" alt=""/></div>
+                  <div class="card-title">Chiết xuất tổ yến</div>
+                  <div class="card-body">Ngăn ngừa oxy hoá, chống lão hoá, giúp cơ thể trẻ khoẻ, ngừa ung thư.</div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card">
+                  <div class="card-img"><img src="../assets/img/icon-5.svg" alt=""/></div>
+                  <div class="card-title">Vitamin E, B1, B2, B6</div>
+                  <div class="card-body">Đẩy lùi dấu hiệu lão hoá, giảm chảy xệ, xoá mờ nếp nhăn.</div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card">
+                  <div class="card-img"><img src="../assets/img/icon-9.svg" alt=""/></div>
+                  <div class="card-title">Chiết xuất mầm nho</div>
+                  <div class="card-body">Căn bằng độ ẩm ngăn ngừa nếp nhăn.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-2 pb-1">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="step_num mt-3" id="sec2"><img src="../assets/img/step2.svg" alt=""/></div>
+            </div>
+            <div class="col">
+              <div class="article mt-3">
+                <div class="article_title">
+                  <h1 class="text-gold">Các vấn đề về da</h1>
+                </div>
+              </div>
+              <div class="article_content text-white">
+                <p>Hơn 90% phụ nữ từ độ tuổi 25 trở đi gặp các vấn đề về lão hoá, thể hiện rõ nhất qua làn da mất dần vẻ đẹp về thời gian.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="face">
+              <div class="face-item">
+                <div class="face-img"><img class="face1" src="../assets/img/face3.png" alt=""/></div>
+                <div class="face-text">
+                  <div class="font-semi-bold text-white">Xuất hiện nếp nhăn ở khóe mắt, khóe môi</div>
+                </div>
+              </div>
+              <div class="face-item">
+                <div class="face-img"><img class="face1" src="../assets/img/face5.png" alt=""/></div>
+                <div class="face-text">
+                  <div class="font-semi-bold text-white">Da chạy xệ, mất độ đàn hồi</div>
+                </div>
+              </div>
+              <div class="face-item">
+                <div class="face-img"><img class="face1" src="../assets/img/face1.png" alt=""/></div>
+                <div class="face-text">
+                  <div class="font-semi-bold text-white">Mái tóc kém suôn mượt so với tuổi 20</div>
+                </div>
+              </div>
+              <div class="face-item">
+                <div class="face-img"><img class="face1" src="../assets/img/face2.png" alt=""/></div>
+                <div class="face-text">
+                  <div class="font-semi-bold text-white">Da thô ráp, xỉn màu</div>
+                </div>
+              </div>
+              <div class="face-item">
+                <div class="face-img"><img class="face1" src="../assets/img/face4.png" alt=""/></div>
+                <div class="face-text">
+                  <div class="font-semi-bold text-white">Xuất hiện sạm nám</div>
+                </div>
+              </div>
+              <div class="face-item">
+                <div class="face-img"><img class="face1" src="../assets/img/face6.png" alt=""/></div>
+                <div class="face-text">
+                  <div class="font-semi-bold text-white">Xương khớp giảm sút</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row width-md-80">
+            <div class="col">
+              <div class="article">
+                <div class="article_title">
+                  <h1 class="text-gold">Nguyên nhân</h1>
+                </div>
+                <div class="article_content text-white">
+                  <p>Chủ yếu do mật độ collagen trong cơ thể mất dần qua thời gian</p>
+                </div>
+              </div>
+            </div>
+            <div class="col"><a class="btn btn-primary mt-2" href="tel:0966680953">
+                <svg class="call-icon x2" viewBox="0 0 37.22 37.22">
+                  <path d="M18.61,2.33A16.28,16.28,0,1,1,2.33,18.61,16.29,16.29,0,0,1,18.61,2.33m0-2.33A18.61,18.61,0,1,0,37.22,18.61,18.61,18.61,0,0,0,18.61,0ZM29,24.83l-.1-.32a3,3,0,0,0-1.8-1.7l-2.75-.75a2.7,2.7,0,0,0-2.36.62l-1,1a10.54,10.54,0,0,1-7.43-7.43l1-1a2.7,2.7,0,0,0,.62-2.36l-.75-2.75a2.94,2.94,0,0,0-1.7-1.8l-.32-.1a2.46,2.46,0,0,0-2.32.55L8.58,10.28a2.71,2.71,0,0,0-.44,1A17.57,17.57,0,0,0,25.87,29.07a2.61,2.61,0,0,0,1.07-.43l1.49-1.49A2.46,2.46,0,0,0,29,24.83Z"></path>
+                </svg><span>
+                   Tư vấn riêng<br/>về làn da</span></a></div>
+          </div>
+          <div class="row width-md-80">
+            <div class="col circle-care"><img src="../assets/img/circle-care.png" alt=""/></div>
+          </div>
+          <div class="row mb-7">
+            <div class="col"><img class="pr-2" src="../assets/img/chart.svg" alt=""/></div>
+            <div class="col d-flex align-items-end">
+              <div class="font-semi-bold text-uppercase text-white text-medium mb-2 pl-2">Ở độ tuổi 30, lượng collagen đã<br/><span class="text-gold font-black">mất đi 1/3 so với độ tuổi 20</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-3 mt-5"><img class="hoamai1" src="../assets/img/hoamai.svg" alt=""/><img class="hoamai2" src="../assets/img/hoamai.svg" alt=""/><img class="hoamai3" src="../assets/img/hoamai.svg" alt=""/><img class="daylua-tr" src="../assets/img/daylua-tr.svg" alt=""/><img class="daylua-p" src="../assets/img/daylua-p.svg" alt=""/>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="step_num mt-3" id="sec3"><img src="../assets/img/step3.svg" alt=""/></div>
+            </div>
+            <div class="col pt-3"><a class="btn btn-primary" href="tel:0966680953">
+                <svg class="call-icon x2" viewBox="0 0 37.22 37.22">
+                  <path d="M18.61,2.33A16.28,16.28,0,1,1,2.33,18.61,16.29,16.29,0,0,1,18.61,2.33m0-2.33A18.61,18.61,0,1,0,37.22,18.61,18.61,18.61,0,0,0,18.61,0ZM29,24.83l-.1-.32a3,3,0,0,0-1.8-1.7l-2.75-.75a2.7,2.7,0,0,0-2.36.62l-1,1a10.54,10.54,0,0,1-7.43-7.43l1-1a2.7,2.7,0,0,0,.62-2.36l-.75-2.75a2.94,2.94,0,0,0-1.7-1.8l-.32-.1a2.46,2.46,0,0,0-2.32.55L8.58,10.28a2.71,2.71,0,0,0-.44,1A17.57,17.57,0,0,0,25.87,29.07a2.61,2.61,0,0,0,1.07-.43l1.49-1.49A2.46,2.46,0,0,0,29,24.83Z"></path>
+                </svg><span>
+                   Tư vấn riêng<br/>về làn da</span></a></div>
+          </div>
+          <div class="row width-md-80">
+            <div class="col text-uppercase font-bold text-blue text-medium mt-4">Chỉ 1 phút mỗi ngày, sau 2-4 tuần, <br/>làn da của bạn được hồi sinh</div>
+          </div>
+          <div class="row width-md-80">
+            <div class="col">
+              <div class="face four-items-row">
+                <div class="face-item">
+                  <div class="face-img"><img class="face1" src="../assets/img/face-2-3.png" alt=""/></div>
+                  <div class="face-title">Sau 1 tuần</div>
+                  <div class="face-text">
+                    <div class="font-semi-bold">Da mềm mịn</div>
+                  </div>
+                </div>
+                <div class="face-item">
+                  <div class="face-img"><img class="face1" src="../assets/img/face-2-4.png" alt=""/></div>
+                  <div class="face-title">Sau 2 tuần</div>
+                  <div class="face-text">
+                    <div class="font-semi-bold">
+                       Da dần trắng sáng, <br/>mờ nám tàn nhang</div>
+                  </div>
+                </div>
+                <div class="face-item">
+                  <div class="face-img"><img class="face1" src="../assets/img/face-2-1.png" alt=""/></div>
+                  <div class="face-title">Sau 3 tuần</div>
+                  <div class="face-text">
+                    <div class="font-semi-bold">
+                       Các nếp nhăn khoé mắt, <br/>miệng nhạt dần</div>
+                  </div>
+                </div>
+                <div class="face-item">
+                  <div class="face-img"><img class="face1" src="../assets/img/face-2-2.png" alt=""/></div>
+                  <div class="face-title">Sau 4 tuần</div>
+                  <div class="face-text">
+                    <div class="font-semi-bold">
+                       Da săn chắc, <br/>căng bóng rõ rệt</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col text-center font-black text-blue text-big text-uppercase">Khảo sát trên 30,000 khách hàng</div>
+          </div>
+          <div class="row">
+            <div class="col"><img class="pr-2" src="../assets/img/chart-2.svg" alt=""/></div>
+          </div>
+        </div>
+      </div>
+      <div class="section-4">
+        <div class="container py-5 pt-spec">
+          <div class="row">
+            <div class="col">
+              <div class="step_num mt-3 text-left" id="sec4"><img src="../assets/img/step4.svg" alt=""/></div>
+            </div>
+          </div>
+          <div class="row width-md-80">
+            <div class="col">
+              <div class="face medal">
+                <div class="face-item">
+                  <div class="face-img"><img class="face1" src="../assets/img/medal1.png" alt=""/></div>
+                  <div class="face-text">
+                    <div class="font-semi-bold text-white">Trên 100.000 phụ nữ<br/>Nhật Bản và trên thế <br/>giới tin dùng</div>
+                  </div>
+                </div>
+                <div class="face-item">
+                  <div class="face-img"><img class="face1" src="../assets/img/medal2.png" alt=""/></div>
+                  <div class="face-text">
+                    <div class="font-semi-bold text-white">Được cấp phép <br/>VSATTP bởi Bộ Y tế</div>
+                  </div>
+                </div>
+                <div class="face-item">
+                  <div class="face-img"><img class="face1" src="../assets/img/medal3.png" alt=""/></div>
+                  <div class="face-text">
+                    <div class="font-semi-bold text-white">100% thành phần từ <br/>thiên nhiên, an toàn <br/>cho cơ thể </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="line-seperate"></div>
+          <div class="row py-5">
+            <div class="col">
+              <div class="step_num mt-3 text-left" id="sec5"><img src="../assets/img/step5.svg" alt=""/></div>
+            </div>
+          </div>
+          <div class="container py-5">
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <div class="comment">
+                  <div class="comment-img"><img src="../assets/img/hh-1.png" alt=""/></div>
+                  <div class="comment_title">Á Hậu Huyền My</div>
+                  <div class="comment_pos">HHHVVN 2014</div>
+                  <div class="comment_content">“Mình đã “nghiền” thức uống này giờ đến mẹ mình cũng “nghiện” luôn. Hai mẹ con cùng uống, cùng khỏe và cùng xinh đẹp. Mình tặng mẹ món quà 82x để đồng hành cùng My trên chặng đường tiếp theo.”</div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="comment">
+                  <div class="comment-img"><img src="../assets/img/hh-2.png" alt=""/></div>
+                  <div class="comment_title">Á Hậu Tú Anh</div>
+                  <div class="comment_pos">HHHVVN 2014</div>
+                  <div class="comment_content">“Đây là chai nước uống luôn có trong tủ lạnh là Tú Anh. 82x collagen là bí kíp giúp Tú Anh nuôi dưỡng và chăm sóc da trắng mịn từ sâu bên trong, và còn giúp cho Tú Anh có thật nhiều năng lượng để làm việc nữa.”</div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="comment">
+                  <div class="comment-img"><img src="../assets/img/hh-3.png" alt=""/></div>
+                  <div class="comment_title">Tâm Tít</div>
+                  <div class="comment_pos">MC, Ca sĩ</div>
+                  <div class="comment_content">“Sau khi sinh em bé thứ 2 thì da Tâm không còn giữ được phong độ như trước nữa. Đó là điều khiến Tâm cảm thấy lo lắng, và Tâm đã sử dụng 82x thì hiệu quả quá bất ngờ. Chỉ sau 4 tuần làn da Tâm đã trắng sáng hơn rất nhiều”</div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="comment">
+                  <div class="comment-img"><img src="../assets/img/hh-4.png" alt=""/></div>
+                  <div class="comment_title">Lan Phương</div>
+                  <div class="comment_pos">Diễn viên</div>
+                  <div class="comment_content">“Nhờ việc sử dụng nước uống 82X, Phương đã nhanh chóng loại bỏ các vấn đề về da cho phụ nữ sau sinh như việc da thâm sạm, không đều màu, kém săn chắc... Không những thế, nước uống 82X bổ sung các dưỡng chất cần thiết, chắm sóc sức khoẻ để Phương luôn có năng lượng dồi dào”</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="line-seperate"></div>
+          <div class="row py-5">
+            <div class="col">
+              <div class="step_num mt-3 text-left" id="sec6"><img src="../assets/img/step6.svg" alt=""/></div>
+            </div>
+          </div>
+          <div class="row buying">
+            <div class="col">
+              <div class="transport">
+                <div class="transport-item"><img src="../assets/img/buying1.png" alt=""/><span class="text-white">Giao hàng toàn quốc</span></div>
+                <div class="hr"></div>
+                <div class="transport-item"><img src="../assets/img/buying2.png" alt=""/><span class="text-white">Freeship</span></div>
+                <div class="hr"></div>
+                <div class="transport-item"><img src="../assets/img/buying3.png" alt=""/><span class="text-white">Được hoàn trả nếu sản phẩm không còn nguyên vẹn</span></div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="promotion"><img src="../assets/img/gift.png" alt=""/></div>
+            </div>
+          </div>
+          <div class="row mt-7 width-md-80">
+            <div class="col">
+              <div class="font-bold-italic text-white text-semi-big">Đừng bỏ lỡ</div>
+              <h1 class="hotline font-black-italic">Cơ hội sở hữu thần dược</h1>
+              <div class="font-bold-italic text-white text-semi-big">Giúp làn da bạn trẻ hơn 10 tuổi</div>
+            </div>
+          </div>
+          <div class="row mt-7 width-md-80">
+            <div class="col">
+              <div class="time-wrapper">
+                <div class="time-item">
+                  <div class="time-frame" id="timeDay"></div>
+                  <div class="time-text">DAYS</div>
+                </div>
+                <div class="time-item">
+                  <div class="time-frame" id="timeHour"></div>
+                  <div class="time-text">HOURS</div>
+                </div>
+                <div class="time-item">
+                  <div class="time-frame" id="timeMin"></div>
+                  <div class="time-text">MINUTES</div>
+                </div>
+                <div class="time-item">
+                  <div class="time-frame" id="timeSec"></div>
+                  <div class="time-text">SECONDS</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row width-md-80">
+            <div class="col">
+              <div class="form-group text-center"><a class="btn btn-primary" href="tel:0966680953">
+                  <svg class="call-icon" viewBox="0 0 37.22 37.22">
+                    <path d="M18.61,2.33A16.28,16.28,0,1,1,2.33,18.61,16.29,16.29,0,0,1,18.61,2.33m0-2.33A18.61,18.61,0,1,0,37.22,18.61,18.61,18.61,0,0,0,18.61,0ZM29,24.83l-.1-.32a3,3,0,0,0-1.8-1.7l-2.75-.75a2.7,2.7,0,0,0-2.36.62l-1,1a10.54,10.54,0,0,1-7.43-7.43l1-1a2.7,2.7,0,0,0,.62-2.36l-.75-2.75a2.94,2.94,0,0,0-1.7-1.8l-.32-.1a2.46,2.46,0,0,0-2.32.55L8.58,10.28a2.71,2.71,0,0,0-.44,1A17.57,17.57,0,0,0,25.87,29.07a2.61,2.61,0,0,0,1.07-.43l1.49-1.49A2.46,2.46,0,0,0,29,24.83Z"></path>
+                  </svg>Tôi muốn mua ngay</a></div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="footer">
@@ -307,13 +810,10 @@
               <h1 class="font-bold text-white text-large my-3">Liên hệ</h1>
               <div class="font-semi-bold-italic mt-2 text-white text-medium">8X sẵn sàng giải đáp mọi thắc mắc của bạn</div>
               <h1 class="hotline font-black-italic mb-4">Hotline: 0966 680 853</h1>
-              <div class="form-group">
-                <button class="btn btn-primary"> 
+              <div class="form-group"><a class="btn btn-primary" href="tel:0966680953">
                   <svg class="call-icon" viewBox="0 0 37.22 37.22">
                     <path d="M18.61,2.33A16.28,16.28,0,1,1,2.33,18.61,16.29,16.29,0,0,1,18.61,2.33m0-2.33A18.61,18.61,0,1,0,37.22,18.61,18.61,18.61,0,0,0,18.61,0ZM29,24.83l-.1-.32a3,3,0,0,0-1.8-1.7l-2.75-.75a2.7,2.7,0,0,0-2.36.62l-1,1a10.54,10.54,0,0,1-7.43-7.43l1-1a2.7,2.7,0,0,0,.62-2.36l-.75-2.75a2.94,2.94,0,0,0-1.7-1.8l-.32-.1a2.46,2.46,0,0,0-2.32.55L8.58,10.28a2.71,2.71,0,0,0-.44,1A17.57,17.57,0,0,0,25.87,29.07a2.61,2.61,0,0,0,1.07-.43l1.49-1.49A2.46,2.46,0,0,0,29,24.83Z"></path>
-                  </svg>Mua ngay
-                </button>
-              </div>
+                  </svg>Mua ngay</a></div>
             </div>
             <div class="col">
               <p class="text-white my-3">Để lại thông tin để nhận được<br/>tư vấn về da miễn phí</p>
@@ -336,16 +836,44 @@
                   <label class="text-white">Email me about new features</label>
                 </div>
                 <div class="form-group">
-                  <input class="btn btn-primary w-100" type="submit" value="Đăng kí"/>
+                  <button class="btn btn-primary w-100 text-center" type="submit">Đăng kí</button>
                 </div>
               </form>
             </div>
           </div>
         </div>
       </div>
+      <div class="scroll-top"></div>
     </div>
     <div class="main-footer"></div>
     <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
     <script src="../js/main.js"></script>
+    <script>
+      $(document).ready(function() {
+          var owl = $('.owl-carousel');
+              owl.owlCarousel({
+              items: 3,
+              loop: true,
+              margin: 10,
+              autoplay: true,
+              autoplayTimeout: 5000,
+              autoplayHoverPause: true,
+              center: true,
+               responsive:{
+                  0:{
+                      items:1
+                  },
+                  768:{
+                      items:2
+                  },
+                  992:{
+                      items:3
+                  }
+              }
+          });
+      })
+    </script>
   </body>
 </html>
