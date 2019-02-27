@@ -1076,7 +1076,8 @@ input, select {
       align-items: center;
       color: #fff;
       font-size: 4em;
-      font-family: "MuliBoldItalic"; }
+      font-family: "MuliBoldItalic";
+      will-change: transform; }
     .time-wrapper .time-item .time-text {
       margin-top: 2em;
       margin-bottom: 1em;
@@ -1137,7 +1138,8 @@ input, select {
   min-height: 600px;
   max-width: 320px;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  will-change: transform; }
   .comment-img {
     max-width: 80%;
     margin-left: auto;
@@ -1175,7 +1177,8 @@ input, select {
   right: .5em;
   max-width: 70px;
   height: 70px;
-  will-change: transform; }
+  will-change: transform;
+  z-index: 10000; }
   .call-now .btn {
     padding: 5px; }
   .call-now .call-icon {
