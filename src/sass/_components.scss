@@ -103,6 +103,7 @@
     @include transition(.5s);
     background-color: transparent;
     z-index: 9999;
+    will-change: transform;
     ul{
         list-style-type: none;
         margin: 0;
@@ -823,6 +824,7 @@ input,select{
     right: .5em;
     max-width: 70px;
     height: 70px;
+    will-change: transform;
     .btn{
         padding: 5px;
     }

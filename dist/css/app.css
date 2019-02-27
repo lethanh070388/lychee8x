@@ -603,7 +603,8 @@ hr {
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   background-color: transparent;
-  z-index: 9999; }
+  z-index: 9999;
+  will-change: transform; }
   .navbar ul {
     list-style-type: none;
     margin: 0;
@@ -1173,7 +1174,8 @@ input, select {
   bottom: .5em;
   right: .5em;
   max-width: 70px;
-  height: 70px; }
+  height: 70px;
+  will-change: transform; }
   .call-now .btn {
     padding: 5px; }
   .call-now .call-icon {
