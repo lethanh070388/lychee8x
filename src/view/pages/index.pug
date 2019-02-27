@@ -26,7 +26,7 @@ block append main-content
             .row.row-pc
                 .left
                     .ads_1.mt-5
-                        img(src="../assets/img/left-product.svg", alt="")
+                        img.lazy(alt="" src="../assets/img/left-product.svg")
                 .right
                     .headline
                         .number
@@ -460,13 +460,13 @@ block append main-content
                      .face.four-items-row
                         .face-item
                             .face-img
-                                img.face1(src="../assets/img/face-2-3.png", alt="")
+                                img.face1.lazy(data-original="../assets/img/face-2-3.png", alt="")
                             .face-title Sau 1 tuần
                             .face-text
                                 .font-semi-bold Da mềm mịn
                         .face-item
                             .face-img
-                                img.face1(src="../assets/img/face-2-4.png", alt="")
+                                img.face1.lazy(data-original="../assets/img/face-2-4.png", alt="")
                             .face-title Sau 2 tuần
                             .face-text
                                 .font-semi-bold 
@@ -475,7 +475,7 @@ block append main-content
                                     |mờ nám tàn nhang
                         .face-item
                             .face-img
-                                img.face1(src="../assets/img/face-2-1.png", alt="")
+                                img.face1.lazy(data-original="../assets/img/face-2-1.png", alt="")
                             .face-title Sau 3 tuần
                             .face-text
                                 .font-semi-bold 
@@ -484,7 +484,7 @@ block append main-content
                                     |miệng nhạt dần
                         .face-item
                             .face-img
-                                img.face1(src="../assets/img/face-2-2.png", alt="")
+                                img.face1.lazy(data-original="../assets/img/face-2-2.png", alt="")
                             .face-title Sau 4 tuần
                             .face-text
                                 .font-semi-bold 
@@ -495,7 +495,7 @@ block append main-content
                 .col.text-center.font-black.text-blue.text-big.text-uppercase Khảo sát trên 30,000 khách hàng
             .row
                 .col
-                    img.pr-2(src="../assets/img/chart-2.svg", alt="")
+                    img.pr-2.lazy(data-original="../assets/img/chart-2.svg", alt="")
     .section-4
         .container.py-5.pt-spec
             .row
@@ -507,8 +507,8 @@ block append main-content
                      .face.medal
                         .face-item
                             .face-img
-                                img.face1(src="../assets/img/medal1.png", alt="")
-                            .face-text
+                                img.face1.lazy(data-original="../assets/img/medal1.png", alt="")
+                            .face-textsrc
                                 .font-semi-bold.text-white
                                     |Trên 100.000 phụ nữ
                                     br
@@ -517,7 +517,7 @@ block append main-content
                                     |giới tin dùng
                         .face-item
                             .face-img
-                                img.face1(src="../assets/img/medal2.png", alt="")
+                                img.face1.lazy(data-original="../assets/img/medal2.png", alt="")
                             .face-text
                                 .font-semi-bold.text-white
                                     |Được cấp phép 
@@ -525,7 +525,7 @@ block append main-content
                                     |VSATTP bởi Bộ Y tế
                         .face-item
                             .face-img
-                                img.face1(src="../assets/img/medal3.png", alt="")
+                                img.face1.lazy(data-original="../assets/img/medal3.png", alt="")
                             .face-text
                                 .font-semi-bold.text-white
                                     |100% thành phần từ 
@@ -590,7 +590,7 @@ block append main-content
                             span.text-white Được hoàn trả nếu sản phẩm không còn nguyên vẹn
                 .col
                     .promotion
-                        img(src="../assets/img/gift.png", alt="")
+                        img.lazy(data-original="../assets/img/gift.png", alt="")
             .row.mt-7.width-md-80
                 .col
                     .font-bold-italic.text-white.text-semi-big Đừng bỏ lỡ
@@ -650,9 +650,15 @@ block append main-content
                             label.text-white Email me about new features
                         .form-group
                             button.btn.btn-primary.w-100.text-center(type="submit") Đăng kí
-    .scroll-top
+    .call-now
+        a.btn.btn-primary(href="tel:0966680953")
+            svg.call-icon.x2(viewBox='0 0 37.22 37.22')
+                path(d='M18.61,2.33A16.28,16.28,0,1,1,2.33,18.61,16.29,16.29,0,0,1,18.61,2.33m0-2.33A18.61,18.61,0,1,0,37.22,18.61,18.61,18.61,0,0,0,18.61,0ZM29,24.83l-.1-.32a3,3,0,0,0-1.8-1.7l-2.75-.75a2.7,2.7,0,0,0-2.36.62l-1,1a10.54,10.54,0,0,1-7.43-7.43l1-1a2.7,2.7,0,0,0,.62-2.36l-.75-2.75a2.94,2.94,0,0,0-1.7-1.8l-.32-.1a2.46,2.46,0,0,0-2.32.55L8.58,10.28a2.71,2.71,0,0,0-.44,1A17.57,17.57,0,0,0,25.87,29.07a2.61,2.61,0,0,0,1.07-.43l1.49-1.49A2.46,2.46,0,0,0,29,24.83Z')
 block script-append
     script.
+        $("img.lazy").lazyload({
+            threshold : 200
+        });
         $(document).ready(function() {
             var owl = $('.owl-carousel');
                 owl.owlCarousel({

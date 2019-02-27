@@ -816,3 +816,17 @@ input,select{
     }
 }
 // END COMMENT
+
+.call-now{
+    position: fixed;
+    bottom: .5em;
+    right: .5em;
+    max-width: 70px;
+    height: 70px;
+    .btn{
+        padding: 5px;
+    }
+    .call-icon{
+        margin-right: 0;
+    }
+}
