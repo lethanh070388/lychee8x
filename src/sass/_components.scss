@@ -817,6 +817,11 @@ input,select{
         }
     }
 }
+@media (max-width: 480px){
+    .comment{
+        max-width: 310px;
+    }
+}
 // END COMMENT
 
 .call-now{
