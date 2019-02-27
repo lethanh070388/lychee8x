@@ -1,4 +1,6 @@
 $(function () {
+    $(this).scrollTop(0);
+
     $(window).on('scroll', function () {
         var nav = $('.scrolling-navbar');
         if ($(window).scrollTop() > 30) {
