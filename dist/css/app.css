@@ -552,7 +552,7 @@ hr {
     font-size: 1.3em; } }
 @media (max-width: 767px) {
   .banner {
-    height: 75%; }
+    height: 80%; }
     .banner .text {
       position: absolute;
       top: 30%;
