@@ -183,6 +183,12 @@
         padding-top: 70vw;
     }
 }
+@media (max-width: 767px){
+    .section-4{
+        background-image: url('../assets/img/bg2-mobile.png');
+    }
+}
+
 [class*="width-"]{
     max-width: 100%;
     width: 100%;

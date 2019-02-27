@@ -76,6 +76,10 @@ $(function () {
        
             // Add hash (#) to URL when done scrolling (default click behavior)
             window.location.hash = hash;
+            $(".navbar a.active").removeClass("active");
+
+            $('.navbar a[href="'+hash+'"').addClass("active");
+            console.log(hash)
           });
         } // End if
       });
