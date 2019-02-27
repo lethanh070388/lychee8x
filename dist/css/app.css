@@ -545,13 +545,21 @@ hr {
       top: .08em;
       padding: 0 .03em; }
 
+@media (max-width: 991px) {
+  .banner .text {
+    position: absolute;
+    top: 30%;
+    right: 40%;
+    max-width: 75%;
+    width: 100%; }
+  .banner .slogan {
+    font-size: 1.3em; } }
 @media (max-width: 767px) {
   .banner {
     height: 75%; }
     .banner .text {
       position: absolute;
       top: 30%;
-      right: 40%;
       max-width: 75%;
       width: 100%; }
     .banner .slogan {
