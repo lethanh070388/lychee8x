@@ -115,7 +115,11 @@
         opacity: .7;
     }
 }
-
+@media (max-width: 767px){
+    .section-2{
+        background-image: url('../assets/img/bg-mobile.png');
+    }
+}
 .section-3{
     position: relative;
     overflow: hidden;
