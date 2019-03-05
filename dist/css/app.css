@@ -254,6 +254,15 @@ h1, h2, h3, h4, h5, h6, p {
 .align-items-end {
   align-items: flex-end; }
 
+.justify-content-center {
+  justify-content: center; }
+
+.align-items-center {
+  align-items: center; }
+
+.align-items-start {
+  align-items: start; }
+
 img {
   max-width: 100%; }
 
@@ -377,6 +386,113 @@ hr {
     opacity: .5;
     z-index: -1; }
   .section-1 .daylua-p {
+    position: absolute;
+    right: -250px;
+    bottom: 0;
+    max-width: 1000px;
+    opacity: .5;
+    z-index: -1; }
+
+.section-3-extra {
+  position: relative;
+  overflow: hidden; }
+  .section-3-extra .hoamai1 {
+    position: absolute;
+    top: 35%;
+    left: -5px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    max-width: 90px;
+    opacity: .7;
+    z-index: -1; }
+  .section-3-extra .hoamai2 {
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    -webkit-transform: rotate(25deg);
+    -moz-transform: rotate(25deg);
+    -ms-transform: rotate(25deg);
+    -o-transform: rotate(25deg);
+    transform: rotate(25deg);
+    max-width: 50px;
+    opacity: .5;
+    z-index: -1; }
+  .section-3-extra .hoamai3 {
+    position: absolute;
+    top: 20%;
+    right: -25px;
+    -webkit-transform: rotate(75deg);
+    -moz-transform: rotate(75deg);
+    -ms-transform: rotate(75deg);
+    -o-transform: rotate(75deg);
+    transform: rotate(75deg);
+    max-width: 120px;
+    opacity: .6;
+    z-index: -1; }
+  .section-3-extra .hoamai4 {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    -webkit-transform: rotate(105deg);
+    -moz-transform: rotate(105deg);
+    -ms-transform: rotate(105deg);
+    -o-transform: rotate(105deg);
+    transform: rotate(105deg);
+    max-width: 90px;
+    opacity: .4;
+    z-index: -1; }
+  .section-3-extra .hoamai5 {
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    -webkit-transform: rotate(75deg);
+    -moz-transform: rotate(75deg);
+    -ms-transform: rotate(75deg);
+    -o-transform: rotate(75deg);
+    transform: rotate(75deg);
+    max-width: 60px;
+    opacity: .6;
+    z-index: -1; }
+  .section-3-extra .hoamai6 {
+    position: absolute;
+    bottom: 20%;
+    left: 35%;
+    -webkit-transform: rotate(175deg);
+    -moz-transform: rotate(175deg);
+    -ms-transform: rotate(175deg);
+    -o-transform: rotate(175deg);
+    transform: rotate(175deg);
+    max-width: 40px;
+    opacity: .8;
+    z-index: -1; }
+  .section-3-extra .hoamai7 {
+    position: absolute;
+    bottom: 2%;
+    right: 0;
+    -webkit-transform: rotate(35deg);
+    -moz-transform: rotate(35deg);
+    -ms-transform: rotate(35deg);
+    -o-transform: rotate(35deg);
+    transform: rotate(35deg);
+    max-width: 130px;
+    opacity: .5;
+    z-index: -1; }
+  .section-3-extra .daylua-tr {
+    position: absolute;
+    left: -400px;
+    top: -50px;
+    max-width: 1000px;
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    transform: rotate(20deg);
+    opacity: .5;
+    z-index: -1; }
+  .section-3-extra .daylua-p {
     position: absolute;
     right: -250px;
     bottom: 0;
@@ -1194,5 +1310,60 @@ input, select {
     padding: 5px; }
   .call-now .call-icon {
     margin-right: 0; }
+
+.img-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .img-circle img {
+    width: 70px; }
+  .img-circle svg {
+    fill: #9A7254; }
+
+.img-add {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding: .5em;
+  font-size: 2em;
+  font-weight: bold;
+  color: #9A7254; }
+
+.item-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 110px;
+  align-items: center; }
+  .item-wrapper .item-text {
+    margin-top: 1em;
+    color: #9A7254;
+    text-align: center; }
+
+@media (max-width: 767px) {
+  .img-circle img {
+    width: 50px; }
+
+  .img-add {
+    height: 50px;
+    padding: .25em;
+    font-size: 1.5em; }
+
+  .item-wrapper {
+    width: 75px; }
+    .item-wrapper .item-text {
+      font-size: 0.85em; } }
+@media (max-width: 480px) {
+  .img-circle img {
+    width: 45px; }
+
+  .img-add {
+    height: 45px;
+    padding: .25em;
+    font-size: 1.5em; }
+
+  .item-wrapper {
+    width: 65px; }
+    .item-wrapper .item-text {
+      font-size: 0.8em; } }
 
 /*# sourceMappingURL=app.css.map */

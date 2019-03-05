@@ -839,3 +839,73 @@ input,select{
         margin-right: 0;
     }
 }
+
+// IMG CIRCLE
+.img-circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 70px;
+    }
+    svg{
+        fill: #9A7254;
+    }
+}
+.img-add{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: .5em;
+    font-size: 2em;
+    font-weight: bold;
+    color: #9A7254;
+}
+.item-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 110px;
+    align-items: center;
+    .item-text{
+        margin-top: 1em;
+        color: #9A7254;
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px){
+    .img-circle{
+        img{
+            width: 50px;
+        }
+    }
+    .img-add{
+        height: 50px;
+        padding: .25em;
+        font-size: 1.5em;
+    }
+    .item-wrapper{
+        width: 75px;
+        .item-text{
+            font-size: 0.85em;
+        }
+    }
+}
+@media (max-width: 480px){
+    .img-circle{
+        img{
+            width: 45px;
+        }
+    }
+    .img-add{
+        height: 45px;
+        padding: .25em;
+        font-size: 1.5em;
+    }
+    .item-wrapper{
+        width: 65px;
+        .item-text{
+            font-size: 0.8em;
+        }
+    }
+}

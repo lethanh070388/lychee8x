@@ -99,7 +99,15 @@ h1,h2,h3,h4,h5,h6,p{
 .align-items-end{
     align-items: flex-end;
 }
-
+.justify-content-center{
+    justify-content: center;
+}
+.align-items-center{
+    align-items: center;
+}
+.align-items-start{
+    align-items: start;
+}
 img{
     max-width: 100%;
 }

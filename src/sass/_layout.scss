@@ -97,7 +97,90 @@
         z-index: -1;
     }
 }
-
+.section-3-extra{
+    position: relative;
+    overflow: hidden;
+    .hoamai1{
+        position: absolute;
+        top: 35%;
+        left: -5px;
+        @include transform(rotate(45deg));
+        max-width: 90px;
+        opacity: .7;
+        z-index: -1;
+    }
+    .hoamai2{
+        position: absolute;
+        top: 60%;
+        left: 15%;
+        @include transform(rotate(25deg));
+        max-width: 50px;
+        opacity: .5;
+        z-index: -1;
+    }
+    .hoamai3{
+        position: absolute;
+        top: 20%;
+        right: -25px;
+        @include transform(rotate(75deg));
+        max-width: 120px;
+        opacity: .6;
+        z-index: -1;
+    }
+    .hoamai4{
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        @include transform(rotate(105deg));
+        max-width: 90px;
+        opacity: .4;
+        z-index: -1;
+    }
+    .hoamai5{
+        position: absolute;
+        top: 50%;
+        right: 20%;
+        @include transform(rotate(75deg));
+        max-width: 60px;
+        opacity: .6;
+        z-index: -1;
+    }
+    .hoamai6{
+        position: absolute;
+        bottom: 20%;
+        left: 35%;
+        @include transform(rotate(175deg));
+        max-width: 40px;
+        opacity: .8;
+        z-index: -1;
+    }
+    .hoamai7{
+        position: absolute;
+        bottom: 2%;
+        right: 0;
+        @include transform(rotate(35deg));
+        max-width: 130px;
+        opacity: .5;
+        z-index: -1;
+    }
+    .daylua-tr{
+        position: absolute;
+        left: -400px;
+        top: -50px;
+        max-width: 1000px;
+        @include transform(rotate(20deg));
+        opacity: .5;
+        z-index: -1;
+    }
+    .daylua-p{
+        position: absolute;
+        right: -250px;
+        bottom: 0;
+        max-width: 1000px;
+        opacity: .5;
+        z-index: -1;
+    }
+}
 .section-2{
     background-image: url('../assets/img/bg.png');
     background-size: cover;
