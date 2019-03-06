@@ -280,6 +280,13 @@ hr {
   text-align: left !important;
   justify-content: flex-start; }
 
+.text-right {
+  text-align: right !important;
+  justify-content: flex-end; }
+
+.ml-auto {
+  margin-left: auto !important; }
+
 .text-uppercase {
   text-transform: uppercase; }
 
