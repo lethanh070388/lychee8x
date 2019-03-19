@@ -291,7 +291,7 @@ hr {
   text-transform: uppercase; }
 
 .line-seperate {
-  background-image: url("../assets/img/line.png");
+  background-image: url("../assets/line.png");
   height: 2px;
   width: 50%;
   margin: 0 auto;
@@ -508,7 +508,7 @@ hr {
     z-index: -1; }
 
 .section-2 {
-  background-image: url("../assets/img/bg.png");
+  background-image: url("../assets/bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center 0;
@@ -529,7 +529,7 @@ hr {
 
 @media (max-width: 767px) {
   .section-2 {
-    background-image: url("../assets/img/bg-mobile.png"); } }
+    background-image: url("../assets/bg-mobile.png"); } }
 .section-3 {
   position: relative;
   overflow: hidden; }
@@ -604,7 +604,7 @@ hr {
   width: 100%; }
 
 .section-4 {
-  background-image: url("../assets/img/bg2.png");
+  background-image: url("../assets/bg2.png");
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center 0;
@@ -614,7 +614,7 @@ hr {
 
 @media (max-width: 767px) {
   .section-4 {
-    background-image: url("../assets/img/bg2-mobile.png"); } }
+    background-image: url("../assets/bg2-mobile.png"); } }
 [class*="width-"] {
   max-width: 100%;
   width: 100%;
@@ -661,7 +661,7 @@ hr {
     margin-top: -120px; } }
 .banner {
   height: 100%;
-  background-image: url("../assets/img/banner.jpg");
+  background-image: url("../assets/banner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -877,7 +877,7 @@ hr {
     margin-top: 1em;
     font-size: 1em; } }
 .footer {
-  background-image: url("../assets/img/bg-f.png");
+  background-image: url("../assets/bg-f.png");
   padding-top: 8em;
   background-position: center top;
   background-repeat: no-repeat;
